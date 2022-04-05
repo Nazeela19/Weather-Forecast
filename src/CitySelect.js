@@ -16,7 +16,7 @@ const cities = [
 
 
 export default function CitySelect() {
-  const [value, setValue] = React.useState(0)
+  const [value, setValue] = React.useState('')
   const [inputValue, setInputValue] = React.useState('');
 
   console.log(value)
