@@ -1,0 +1,64 @@
+.backBox{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url(../../../Downloads/Weather.png) */
+    background:linear-gradient(blue,white);
+    
+}
+
+
+
+
+
+
+.titleText{
+    font-size: 300%;
+    font-family: cursive;
+    font-weight: bolder;
+    position: absolute;
+    top: 3%;
+    left: 45%;
+    display: flex;
+    flex-direction: column;
+   
+  
+    
+
+}
+
+#images{
+    position: absolute;
+    top: 100%;
+    left: 3%;
+    
+
+}
+.imgs{
+    display: flex;
+}
+
+.txt{
+    display: flex;
+    right: 5%;
+    position: relative;
+    right: 15%;
+}
+
+.iconsPostions{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.weather{
+    position: relative;
+    top: 40%;
+   
+}
+
+
+.dataDisplay{
+    display: flex;
+    flex-direction: column;
+    
+}
