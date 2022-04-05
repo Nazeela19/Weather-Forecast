@@ -25,7 +25,7 @@ export default function CitySelect() {
     <Box className="backBox" >
       <div className='titleText'>
         <span className='txt'>Weather Forecast</span>
-        <span className='imgs'><img src={cloud} id="images" ></img></span>
+        <span className='imgs'><img src={cloud} alt='imgs' id="images" ></img></span>
       </div>
       <Autocomplete
         value={value}

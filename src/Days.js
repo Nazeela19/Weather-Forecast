@@ -5,7 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import CloudQueueTwoToneIcon from '@mui/icons-material/CloudQueueTwoTone';
-import { DataArrayOutlined } from '@mui/icons-material';
+
 import { dataForTabs } from './Database';
 
 
@@ -76,8 +76,9 @@ export default function Days(props) {
           <Tab label="Sunday" id='sun' {...a11yProps(6)} />
         </Tabs>
       </Box>
+     
       {newData.map((data) => {
-        { console.log(data.index, "days of week") }
+        
         return (<TabPanel value={value} index={data.index}>
           <div className='dataDisplay'>
             <span> {<CloudQueueTwoToneIcon fontSize='large' />}</span>
